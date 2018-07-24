@@ -1,0 +1,12 @@
+// sass --watch scss/style.scss:css/style.css
+@import "base/_reset";
+@import "base/_fonts";
+@import "layout/_header";
+@import "layout/_footer";
+@import "layout/_content";
+@import "layout/_media";
+
+
+.header-nav{
+    color: rgb(254, 221, 0);
+}
