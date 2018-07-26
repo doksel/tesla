@@ -20,58 +20,118 @@
     <!-- BEGIN HEADER -->
 
 	<header>		
-        <div class="wrapper row mx-auto">
-            <!-- <nav class="navbar navbar-expand-lg py-3 navbar-dark">
-                <div class="navbar-header">
-                    <a href="#" class="navbar-brand">
-                        <img src="pic/header/Tesla_logo_horizontal.png" alt="logo">
-                        <p class="">Сварочное оборудование</p>
-                    </a>
+        <div class="wrapper mx-auto">
+
+            <div class="header-nav row">
+                <div class="left-nav row col-6">
+                    <div class="navbar-header col-6">
+                        <a href="#" class="navbar-brand">
+                            <img class="logo-mobil mx-auto" src="pic/header/tesla_logo_mobil.png" alt="logo">
+                            <img class="logo" src="pic/header/Tesla_logo_horizontal.png" alt="logo">
+                            <p>Сварочное оборудование</p>
+                        </a>
+                    </div>
+                    <form class="form-inline col-6">
+                        <button class="btn" type="submit"><img src="pic/header/icon-search.png" alt="search"></button>
+                        <input class="form-control" type="search" placeholder="Поиск">
+                    </form>
                 </div>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".myNavbar"
-                aria-controls="myNavbar" aria-expanded="false">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse myNavbar">
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Поиск" aria-label="Search">
-                    <button class="btn my-2 my-sm-0" type="submit"><img src="pic/header/icon-search.png" alt="search"></button>
-                </form>
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">Features</a>
-                    <a class="nav-item nav-link" href="#">Pricing</a>
-                    <a class="nav-item nav-link" href="#">Disabled</a>
-                  </div>
-            </nav> -->
-        
-            <div class="left-nav row col-lg-6 col-md-11 col-sm-10">
-                <div class="navbar-header col-lg-6 col-md-6 col-sm-12">
-                    <a href="#" class="navbar-brand">
-                        <img class="logo" src="pic/header/Tesla_logo_horizontal.png" alt="logo">
-                        <img class="logo-mobil" src="pic/header/tesla_logo_mobil.png" alt="logo">
-                        <p>Сварочное оборудование</p>
-                    </a>
-                </div>
-                <form class="form-inline my-2 my-lg-0 col-lg-6 col-md-6 col-sm-6">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Поиск" aria-label="Search">
-                    <!-- <button class="btn my-2 my-sm-0" type="submit"><img src="pic/header/icon-search.png" alt="search"></button> -->
-                </form>
+
+                <div class="right-nav col-6">
+                    <nav class="navMenu">
+                        <button class="navbarToggler btn" type="button">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                        <div class="list row">
+                            <a class="" href="#">Продукция </a>
+                            <a class="" href="#">Окомпании</a>
+                            <a class="" href="#">Акции</a>
+                            <a class="" href="#">Сервис и поддержка</a>
+                            <a class="" href="#">Услуги</a>
+                            <a class="" href="#">Контакты</a>
+                        </div>
+                    </nav>
+                    <div class="contacts row">
+                        <div class="contacts_img col-lg-1 col-md-1 col-sm-2">
+                            <img src="pic/header/icon-phone.png" alt="phone">
+                        </div>
+                        <div class="contacts_text col-lg-10 col-md-10 col-sm-0">
+                            <h4>(095)27-27-270 | (067)311-11-74 | (093)170-07-18</h4> 
+                            <p>Принимаем заказы круглосуточно 7 дней в неделю <a href="#">Заказать обратный звонок</a> </p>                              
+                        </div>
+                        <div class="contacts_lang col-lg-1 col-md-1 col-sm-2">УКР</div>
+                    </div>
+                </div>            
             </div>
 
-            <nav class="navbar navbar-expand-lg py-3 navbar-dark col-lg-6 col-md-1 col-sm-1">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".myNavbar"
-                aria-controls="myNavbar" aria-expanded="false">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse myNavbar">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">Features</a>
-                    <a class="nav-item nav-link" href="#">Pricing</a>
-                    <a class="nav-item nav-link" href="#">Disabled</a>
+            <div class="header_menu row">
+                <div class="block col-lg-2 col-md-4 col-sm-4">
+                    <a class="row" href="#">
+                        <img src="pic/header/icon1_header.png" alt="icon">
+                        <div>
+                            <p>СВАРОЧНЫЕ</p>
+                            <p>АППАРАТЫ</p>
+                        </div> 
+                    </a>
                 </div>
-            </nav>
+                <div class="block col-lg-2 col-md-4 col-sm-4">
+                    <a class="row" href="#">
+                        <img src="pic/header/icon-compressor.png" alt="icon">
+                        <p>КОМПРЕССОР</p> 
+                    </a>
+                </div>
+                <div class="block col-lg-2 col-md-4 col-sm-4">
+                    <a class="row" href="#">
+                        <img src="pic/header/icon-drill.png" alt="icon">
+                        <div>
+                            <p>ЭЛЕКТРО-</p>
+                            <p>ИНСТРУМЕНТЫ</p>        
+                        </div>
+                    </a>
+                </div>
+                <div class="block col-lg-2 col-md-4 col-sm-4">
+                    <a class="row" href="#">
+                        <img src="pic/header/icon4_header.png" alt="icon">
+                        <div>
+                           <p>СРЕДСТВА</p>
+                            <p>ЗАЩИТЫ</p>  
+                        </div>                       
+                    </a>
+                </div>
+                <div class="block col-lg-2 col-md-4 col-sm-4">
+                    <a class="row" href="#">
+                        <img src="pic/header/icon5_header.png" alt="icon">
+                        <div>
+                            <p>КОМПЛЕКТУЮЩИЕ</p>
+                            <p>И РАСХОДНИКИ</p>  
+                        </div>
+                    </a>
+                </div>
+                <div class="block col-lg-2 col-md-4 col-sm-4">
+                    <a class="row" href="#">
+                        <img src="pic/header/icon-industrial-robot.png" alt="icon">
+                        <div>
+                            <p>ПРОМЫШЛЕННОЕ</p>
+                            <p>ОБОРУДОВАНИЕ</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <section class="header-down">
+                <div class="header-down_tile">
+                    <h1>ДОСТАВКА И ОПЛАТА</h1>
+                    <p>Доставляем "Новой почтой". Оплачивайте, как Вам удобно</p>
+                </div>
+                <div class="header-down_map row p-2">
+                    <img src="pic/map_ukraine.png" alt="map">
+                    <div class="text">
+                        <p> Доставка в 28 000</p>
+                        <p> населенных пунктов</p>
+                    </div>                    
+                </div>
+                <div class="header_decor"></div>
+            </section>
         </div>		
     </header>
         
@@ -79,14 +139,123 @@
 
     <!-- BEGIN CONTENT -->
 
-    <main class="content">		
+    <main class="content">
         <div class="wrapper">
-            <form class="form" action="/" method="post">
-                <div class="submit">Применить фильтр</div>
-            </form>
+            <div class="delivery">
+                <div class="title">
+                    <h1>ДОСТАВКА</h1>
+                    <p>Всегда найдем способ доставить выбранные Вами товары туда, где Вам будет удобно их забрать.
+                        Можем доставить как на ближайшее отделение «Новой почты», так и непосредственно до двери Вашего дома или работы.</p>
+                </div>
+                <section class="row">
+                    <div class="img col-md-6 col-sm-12"><img src="pic/delivery/img1_delivery.jpg" alt="image"></div>
+                    <div class="blog_item col-md-6 col-sm-12">
+                        <h3><b>КАК ЗАКАЗАТЬ НА БЛИЖАЙШЕЕ К ВАМ ОТДЕЛЕНИЕ?</b></h3>
+                        <p>
+                            При оформлении заказа наш оператор спросит у Вас, куда доставить выбранный товар. 
+                            НазовПри оформлении заказа наш оператор спросит у Вас, куда доставить выбранный товар. 
+                            Назовите номер ближайшего к Вам отделения «Новой почты».
+                            Если Вы не знаете номер или адрес отделения, не страшно. Наш менеджер сам найдет ближайшее, 
+                            по Вашему адресу.
+                            После того, как мы отправим товар, на Ваш мобильный придет SMS с номером экспресс-накладной. 
+                            го нужно будет назвать оператору «Новой почты» при получении посылки.
+                            Когда Ваш заказ прибудет на отделение «Новой почты», на телефон придет сообщение от 
+                            транспортной компании с приглашением забрать его.
+                        </p>
+                    </div>
+                </section>
+                <section class="row">
+                    <div class="blog_item col-md-6 col-sm-12">
+                        <h3><b>КАК ЗАКАЗАТЬ ДОСТАВКУ НА ДОМ ИЛИ НА РАБОТУ?</b></h3>
+                        <p>
+                            Чтобы оформить адресную доставку «Новой почтой», достаточно сказать об этом нашему менеджеру 
+                            при оформлении заказа. Он запишет Ваш адрес и сразу рассчитает стоимость такой доставки.
+                            Когда посылка прибудет в Ваш населенный пункт, с Вами свяжется курьер «Новой почты» и уточнит 
+                            удобное время доставки.
+                        </p>
+                    </div>
+                    <div class="img col-md-6 col-sm-12"><img src="pic/delivery/img2_delivery.jpg" alt="image"></div>
+                </section>
+                <section class="row">
+                    <div class="blog_item col-md-6 col-sm-12">
+                        <h3><b>ОТСЕЖИВАЙТЕ МЕСТОНАХОЖДЕНИЕ ВАШЕГО ЗАКАЗА</b></h3>
+                        <p>
+                            Вы всегда можете получить информацию о местонахождении заказанной Вами техники. 
+                            Для этого зайдите на сайт транспортной компании «Новая почта». В верхней левой части 
+                            главной страницы найдите поле для ввода «Номер накладной». Введите номер экспресс-накладной, 
+                            полученный в sms-сообщении от нашей компании. <br>
+                            <b>Для получения посылки Вам обязательно нужно иметь при себе документ, удостоверяющий личность:</b><br>
+                            паспорт, водительские права, загранпаспорт, военный билет, пенсионное удостоверение. 
+                            Не подойдут свидетельство о рождении и другие документы без фото. <br>
+                            <b>Проверьте целостность упаковки, товара и комплектацию на отделении транспортной компании или в присутствии курьера!</b><br>
+                            При обнаружении повреждений упаковки, возникших вследствие неправильной транспортировки, сообщите об этом 
+                            сотрудникам транспортной компании, не забирайте товар. И сразу звоните нам на телефон горячей линии: 0 800 200 100. Всегда 
+                            оперативно реагируем на обращения наших клиентов. <br>
+                            <b>Насколько быстро доставят товар?</b><br>
+                            Как правило, это 1-2 дня с момента заказа. <br>
+                            <b>Проверяем ли мы товар перед отправкой?</b><br>
+                            Да. До того как отправить Вам заказ, три технических эксперта по очереди проверяют аппарат и дают свои независимые заключения о его работоспособности.
+                            Мы отправляем оборудование, в котором уверены на 100%.
+                        </p>
+                    </div>
+                    <div class="img col-md-6 col-sm-12">
+                        <img src="pic/delivery/img3_delivery.jpg" alt="image">
+                        <img src="pic/delivery/img4_delivery.jpg" alt="image">
+                    </div>
+                </section>
+            </div>
+            <div class="pay">
+                <div class="title">
+                    <h1><b>ОПЛАТА</b></h1>
+                    <p>Оплатить свой заказ вы можете любым удобным для Вас способом: </p>
+                </div>
+                <section class="row">
+                    <div class="blog_item col-md-3 col-sm-12">
+                        <img src="pic/pay/icon1_pay.png" alt="icon">
+                        <p>НАЛИЧНЫМИ ПРИ ПОЛУЧЕНИИ</p>
+                    </div>
+                    <div class="blog_item col-md-3 col-sm-12">
+                        <img src="pic/pay/icon2_pay.png" alt="icon">
+                        <p>ПО БЕЗНАЛИЧНОМУ РАСЧЕТУ</p>
+                    </div>
+                    <div class="blog_item col-md-3 col-sm-12">
+                        <img src="pic/pay/icon3_pay.png" alt="icon">
+                        <p>БАНКОВСКИМ ПЕРЕВОДОМ</p>
+                    </div>
+                    <div class="blog_item col-md-3 col-sm-12">
+                        <img src="pic/pay/icon4_pay.png" alt="icon">
+                        <p>В РАССРОЧКУ</p>
+                    </div>
+                </section>
+                <section>
+                    <p>
+                            <b><big>Наличными при получении</big></b><br>
+                            Выбирайте этот способ, если хотите лично проверить содержимое посылки еще до оплаты.<br>
+                            Вы можете рассчитаться на отделении транспортной компании или отдать деньги курьеру при 
+                            доставке на дом или на работу.<br>
+                            <b><big>По безналичному расчету</big></b><br>
+                            Если для Вас предпочтительнее безналичный расчет, мы сможем это обеспечить.<br>
+                            От Вас нужны следующие документы:<br>
+                            <s>Для физических лиц:</s><br>
+                            - паспорт (обязательна прописка на территории Украины);<br>
+                            - идентификационный код.<br>
+                            <s>Для юридических лиц:</s><br>
+                            - свидетельство о регистрации предприятия;<br>
+                            - свидетельство плательщика НДС;<br>
+                            - контактный номер телефона для внесения в налоговую накладную.<br>
+                            Вышеуказанные документы отправляйте на электронную почту, которую укажет Вам наш менеджер в телефонном режиме.<br>
+                            После получения документов, мы вышлем Вам счет-фактуру, который действителен в течение двух дней.<br>
+                            Оплатить счет вы можете в любом отделении банка.<br>
+                            Отправка заказа, оплаченного по безналичному расчету, производится в течение 2-4 дней с момента оплаты. Это связано со сроками проведения банковских операций.<br>
+                            <b><big>Банковским переводом</big></b><br>
+                            Условия по данному виду оплаты могут меняться. Поэтому уточняйте информацию у наших менеджеров непосредственно при оформлении заказа.<br>
+                            <b><big>В рассрочку</big></b><br>
+                            Рассрочку предоставляют наши партнеры — ПриватБанк и УкрСиббанк. Подробнее об оформлении рассрочки — на странице «Рассрочка».<br>
+                    </p>
+                </section>
+            </div>     
         </div>
-        <div class="content_slider"></div>	
-    </main>	
+    </main>
                 
     <!-- CONTENT EOF   -->
 
