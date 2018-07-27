@@ -434,7 +434,7 @@ footer {
   display: none; }
 
 .footer_form .wrap {
-  width: 100% !important;
+  width: 100%;
   display: block; }
   .footer_form .wrap button, .footer_form .wrap input {
     display: block !important;
